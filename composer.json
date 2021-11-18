@@ -1,0 +1,19 @@
+{
+    "name": "romulo/psr-3",
+    "description": "Implementando Psr-3",
+    "require-dev": {
+        "monolog/monolog": "^2.3"
+    },
+    "authors": [
+        {
+            "name": "RomuloCVieira",
+            "email": "romulo.vieira.dev@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Monolog\\": "src/"
+        }
+    },
+    "require": {}
+}
